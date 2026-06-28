@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Our Memories 🤍</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body class="fade-page letter-page">
+<div class="fairy-lights">
+
+    <div class="wire"></div>
+
+    <div class="bulb"></div>
+    <div class="bulb"></div>
+    <div class="bulb"></div>
+    <div class="bulb"></div>
+    <div class="bulb"></div>
+    <div class="bulb"></div>
+    <div class="bulb"></div>
+    <div class="bulb"></div>
+
+</div>
+<h1 class="gallery-title">Pages I'd Fold Into My Pocket 🌙</h1>
+
+<div class="gallery">
+
+    <div class="photo flip-photo"
+     data-images="images/j.jpg,images/jj.jpg,images/j7.jpg">
+
+    <img src="images/j1.jpg" alt="Memory">
+
+    <p class="caption">
+        Your smile is my favourite. 🤍
+    </p>
+
+</div>
+
+    <div class="photo flip-photo"
+         data-images="images/c.jpg,images/cc.jpg,images/ccc.jpg">
+
+        <img src="images/c2.jpg" alt="Memory">
+
+        <p class="caption">
+            Thinking about you even here. ✨
+        </p>
+
+    </div>
+
+    <div class="photo flip-photo"
+         data-images="images/jjj.jpg,images/c1.jpg,images/j11.jpg">
+
+        <img src="images/j6.jpg" alt="Memory" onclick="openPhoto(this)">
+
+        <p class="caption">
+            Some moments deserve to last forever. 🍃
+        </p>
+
+    </div>
+
+</div>
+
+<div id="photoViewer" onclick="closePhoto()">
+    <img id="viewerImage">
+</div>
+
+
+
+<div id="petals"></div>
+<button id="notesBtn">
+    One last little thing... 🤍
+</button>
+
+<script src="gallery.js"></script>
+
+</body>
+</html>
